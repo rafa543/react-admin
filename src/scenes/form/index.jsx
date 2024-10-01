@@ -38,7 +38,10 @@ const Form = () => {
 
   return (
     <Box m="20px">
-      <Header title="CREATE USER" subtitle="Create a New User Profile" />
+      <Header
+        title="CRIAR USUÁRIO"
+        subtitle="Criar um novo perfil de usuário"
+      />
 
       <Formik
         onSubmit={handleFormSubmit}
@@ -66,7 +69,7 @@ const Form = () => {
                 fullWidth
                 variant="filled"
                 type="text"
-                label="First Name"
+                label="Primeiro Nome"
                 onBlur={handleBlur}
                 onChange={handleChange}
                 value={values.firstName}
@@ -79,7 +82,7 @@ const Form = () => {
                 fullWidth
                 variant="filled"
                 type="text"
-                label="Last Name"
+                label="Ultimo nome"
                 onBlur={handleBlur}
                 onChange={handleChange}
                 value={values.lastName}
@@ -105,7 +108,7 @@ const Form = () => {
                 fullWidth
                 variant="filled"
                 type="text"
-                label="Contact Number"
+                label="Número de contato"
                 onBlur={handleBlur}
                 onChange={handleChange}
                 value={values.contact}
@@ -118,7 +121,7 @@ const Form = () => {
                 fullWidth
                 variant="filled"
                 type="text"
-                label="Address 1"
+                label="Endereço 1"
                 onBlur={handleBlur}
                 onChange={handleChange}
                 value={values.address1}
@@ -131,7 +134,7 @@ const Form = () => {
                 fullWidth
                 variant="filled"
                 type="text"
-                label="Address 2"
+                label="Endereço 2"
                 onBlur={handleBlur}
                 onChange={handleChange}
                 value={values.address2}
