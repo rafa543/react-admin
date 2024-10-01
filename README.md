@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# React Admin
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição
 
-## Available Scripts
+O **React Admin** é uma aplicação de painel de administração que oferece uma interface intuitiva para gerenciar dados e visualizar métricas importantes. Com um design moderno e responsivo, esta aplicação é ideal para gerenciar informações de clientes, vendas e eventos.
 
-In the project directory, you can run:
+## Funcionalidades
 
-### `npm start`
+- **Dashboard Interativo**: Visualize métricas em tempo real com gráficos e indicadores chave de desempenho (KPIs).
+- **Gestão de Clientes**: Acesse e gerencie informações sobre seus clientes de forma eficiente.
+- **Relatórios de Vendas**: Analise o desempenho de vendas com relatórios detalhados.
+- **Visualização de Eventos**: Monitore e analise eventos em um mapa interativo.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Captura de Tela
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Dashboard](path/to/your/image.png)
 
-### `npm test`
+## Tecnologias Utilizadas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [React](https://reactjs.org/) - Biblioteca JavaScript para construção de interfaces de usuário.
+- [Material-UI](https://mui.com/) - Biblioteca de componentes React que implementa o Material Design.
+- [Chart.js](https://www.chartjs.org/) - Biblioteca para criação de gráficos interativos.
 
-### `npm run build`
+## Instalação
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Para executar esta aplicação localmente, siga os passos abaixo:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seuusuario/react-admin.git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Navegue até o diretório do projeto:
+  ```bash 
+  cd react-admin
+  ````
+3. Instale as dependências:
+  ```bash 
+  npm install
+   ```
 
-### `npm run eject`
+4. Inicie a aplicação:
+  ```bash 
+  npm run start
+   ```
+### A aplicação estará disponível em http://localhost:3000.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Contato
+Se você tiver alguma dúvida ou sugestão, entre em contato:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Nome: Rafael Araujo
+- Email: rafa123839@gmail.com
+- Linkedin: www.linkedin.com/in/rafael-araujo-abreu
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
