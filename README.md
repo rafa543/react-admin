@@ -13,7 +13,7 @@ O **React Admin** é uma aplicação de painel de administração que oferece um
 
 ## Captura de Tela
 
-![Dashboard](path/to/your/image.png)
+![Dashboard](https://github.com/rafa543/react-admin/blob/main/public/assets/image.png)
 
 ## Tecnologias Utilizadas
 
