@@ -10,9 +10,9 @@ body,
   font-family: "Source Sans Pro", sans-serif;
 }
 
-.app {
+.app {  
   display: flex;
-  position: relative;
+  position: relative; 
 }
 
 ::-webkit-scrollbar {
